@@ -79,6 +79,7 @@ section p.sub { color: var(--muted); max-width: 600px; margin: 0 0 36px; }
 .t3 { background: linear-gradient(135deg, #134e4a, #0f766e); }
 .t4 { background: linear-gradient(135deg, #7c2d12, #ea7a4f); }
 .t5 { background: linear-gradient(135deg, #1e3a34, #5b8f84); }
+.t6 { background: linear-gradient(135deg, #3b4a47, #8aa39d); }
 .work-row h3 { font-size: 26px; line-height: 1.2; letter-spacing: -0.02em; margin: 8px 0 10px; }
 .work-row p { color: var(--muted); margin: 0 0 14px; }
 .work-row .more { font-weight: 600; color: var(--accent); }
