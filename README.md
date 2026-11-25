@@ -8,17 +8,18 @@ Live site: https://baileyhopp.github.io/portfolio/
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | Home page: intro, results, featured work, tools |
+| `index.html` | Home page: intro, results, selected work, tools and background |
 | `assets/style.css` | Shared styles, with automatic light and dark mode |
-| `work/social-posts.html` | Social media post series sample |
-| `work/case-study.html` | Customer case study sample |
-| `work/blog-post.html` | Thought leadership article sample |
-| `work/product-messaging.html` | Product marketing sample |
-| `work/whitepaper.html` | Whitepaper executive summary and outline sample |
+| `work/cbt-nuggets.html` | CBT Nuggets role page |
+| `work/bamboo.html` | Bamboo role page |
+| `work/within.html` | WITHIN role page |
+| `work/wander-willamette.html` | IronGlove Studio / Wander Willamette page |
+| `work/davies-dixon.html` | Davies + Dixon role page |
+| `work/social-posts.html` | Placeholder for live post examples |
 
-## Important: samples are placeholders
+## Content status
 
-Every company, customer, quote and statistic in `work/` and in the Results and Tools sections of `index.html` is a fictional placeholder. Replace them with real work, or remove any piece that cannot be backed up, before sharing the site widely.
+Metrics and role details come from the 2026 resume and LinkedIn profile. The "Examples coming soon" notes and the `work/social-posts.html` page are placeholders for live posts, videos, and newsletter issues.
 
 ## Folder structure matters
 
@@ -30,8 +31,6 @@ assets/style.css
 work/*.html
 ```
 
-If the pages look unstyled or links are broken, a file is probably in the wrong folder.
-
 ## Publish on GitHub Pages
 
 1. Put the files in the repository `baileyhopp/portfolio` on the `main` branch, keeping the folders above.
@@ -42,4 +41,4 @@ If the pages look unstyled or links are broken, a file is probably in the wrong 
 
 - To change text, open a file on GitHub, click the pencil icon, edit the words between the HTML tags, and commit.
 - Edit colors at the top of `assets/style.css` (the `:root` block).
-- To add a project, copy a file in `work/`, edit it, and add a matching block to the featured work section in `index.html`.
+- To add a project, copy a file in `work/`, edit it, and add a matching block to the selected work section in `index.html`.
